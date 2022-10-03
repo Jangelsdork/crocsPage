@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Josefin+Sans&family=Montserrat:wght@100;400;500;600;700;900&family=Quicksand:wght@300;400&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+body {
+    margin: 0;
+  }
+
+.background {
+
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1024px;
+          
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+          
+        /* Set up positioning */
+        position: fixed;
+        top: -200px;
+        left: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    z-index: 99;
+    width: 100%;
+    opacity: 60%;
+    padding: 10px;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.headerButton{
+    font-family: 'Josefin Sans', sans-serif ;
+    color: white;
+    font-size: 20px;
+}
+
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Castoro', serif;
+    color: peachpuff;
+    transform: translate(-50%, -50%);
+}
+
+#overlayMain{
+    font-size: 90px;
+    text-align: center;
+}
+
+#overlayMinor{
+    font-size: 30px;
+    text-align: center;
+    color: peachpuff;
+}
