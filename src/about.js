@@ -1,4 +1,4 @@
-export default function populateHome(){
+export default function populateAbout(){
     document.getElementById("content").innerHTML += ` 
     <div id="header">
     <div class="headerButton" id="home">Home</div>
@@ -7,7 +7,7 @@ export default function populateHome(){
 </div>
 <img src="IMG_6343.jpeg" alt="premiers 2022" class="background">
 <div id= overlay>
-    <div id="overlayMain">Berlin Crocodiles</div>
+    <div id="overlayMain">ABOUT</div>
     <div id="overlayMinor">Australian Rules Football Club</div>
 </div>
 `;
