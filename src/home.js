@@ -1,5 +1,5 @@
 export default function populateHome(){
-    document.getElementById("content").innerHTML += ` 
+    document.getElementById("content").innerHTML = ` 
     <div id="header">
     <div class="headerButton" id="home">Home</div>
     <div class="headerButton" id="about">About</div>

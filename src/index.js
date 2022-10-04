@@ -16,5 +16,5 @@ document.addEventListener("click", function(e){
         populateContact()
     } 
     else if(e.target.id === "home"){
-        populateHome
+        populateHome()
     }})
